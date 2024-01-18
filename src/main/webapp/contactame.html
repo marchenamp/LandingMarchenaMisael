@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+contactame.html
+Misael Marchena Pérez
+00000233418
+-->
+<html>
+    <head>
+        <title>.:: Asignación 4 ::.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.jpg" width="400" height="100" alt="">
+            <br>
+            <h1>Contactame</h1>
+        </header>
+        <hr/>
+        <nav>
+            <p>Secci&oacute;n de navegaci&oacute;n</p>
+            <a href="index.html">Index</a>  |
+            <a href="horario.html">Horario</a>  |
+            <a href="descripcion.html">Descripci&oacute;n</a>  |
+            <a href="aficiones.html">Aficiones</a>  |
+            <a href="contactame.html">Contactame</a>  |
+        </nav>
+        <hr/>
+        <main>
+            <h3>Rellena el formulario con tus datos</h3><br>
+            <form action="https://formsubmit.co/misael.marchena233418@potros.itson.edu.mx" method="POST">
+                Nombre: <input placeholder="Tu nombre" type="text" name="name" required><br>
+                E-mail: <input placeholder="mail@mail.com" type="email" name="email" required><br>
+                <br>
+                ¿Te gusta alguno de estos?<br>
+                - Música<input type="checkbox" name="guitarra" value="ON" /><br>
+                - Básquetbol<input type="checkbox" name="basquetbol" value="ON" /><br>
+                - Gym<input type="checkbox" name="gym" value="ON" /><br>
+                <br>
+                ¿Qué genero eres?<br>
+                - Hombre <input type="radio" name="genero" value="hombre" required/>
+                - Mujer <input type="radio" name="genero" value="mujer" required/>
+                - Otro <input type="radio" name="genero" value="otro" required/><br>
+                <br>
+                ¿En qué rango de edad te encuentras?<br>
+                <select>
+                    <option>5-15</option>
+                    <option>16-30</option>
+                    <option>31-60</option>
+                    <option>61+</option>
+                </select><br>
+                <br>
+                Algún mensaje que desees enviarme<br>
+                <textarea placeholder="Tu mensaje" name="message" rows="10" required></textarea><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar datos</button>
+            </form>
+        </main>
+        <hr/>
+        <footer>
+            &COPY; Misael Marchena P&eacute;rez Copyright
+        </footer>
+    </body>
+</html>
+
